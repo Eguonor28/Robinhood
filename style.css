@@ -1,0 +1,91 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+.leftside {
+  flex: 1;
+  background-image: url(/robinhoodimage.jpg);
+  background-size: cover;
+}
+
+.rightside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container {
+  width: 100%;
+  max-width: 500px;
+}
+.title {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.input {
+  width: 100%;
+  padding: 15px;
+  border: solid grey 0.1px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.checkbox_container {
+  display: flex;
+  margin: 10px 0;
+}
+.checkbox_container label {
+  margin-left: 10px;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+.needhelp_btn {
+  border: 1px solid black;
+  background: none;
+  color: black;
+}
+.login_btn {
+  background-color: black;
+  color: white;
+}
+a,
+p,
+label {
+  font-size: 11px;
+}
+.footer {
+  margin: 30px 0;
+}
+.footer_desc {
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .leftside {
+    display: none;
+  }
+  .rightside {
+    padding: 30px;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+}
