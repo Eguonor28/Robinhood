@@ -86,4 +86,7 @@ p {
   .hero {
     padding: 20px;
   }
+  #options2 {
+    display: none;
+  }
 }
