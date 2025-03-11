@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sanchez:ital@0;1&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #110e08;
+  text-align: center;
+}
+.background {
+  background-image: url(/web_invest_hero.jpg);
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.nav_logo {
+  width: 200px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 0.1px solid grey;
+}
+.nav_links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200px;
+  font-size: 14px;
+}
+button {
+  padding: 10px 30px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: #ccff00;
+}
+.primary_btn {
+  background-color: #ccff00;
+  color: black;
+}
+.secondary_btn {
+  border: 1px solid #ccff00;
+  color: #ccff00;
+  background: none;
+}
+#options2,
+#options1 {
+  margin-right: 10px;
+  border: none;
+  background-color: #110e08;
+  color: white;
+}
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+h1 {
+  font-family: "Sanchez", serif;
+  color: #ccff00;
+  font-weight: 400;
+  font-size: 5rem;
+}
+p {
+  color: white;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav_links {
+    display: none;
+  }
+  h1 {
+    padding-top: 80px;
+    font-size: 3rem;
+  }
+  .hero {
+    padding: 20px;
+  }
+}
