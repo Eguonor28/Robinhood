@@ -86,7 +86,8 @@ p {
   .hero {
     padding: 20px;
   }
-  #options2 {
-    display: none;
+  button {
+    padding: 5px 10px;
+    margin: 0;
   }
 }
